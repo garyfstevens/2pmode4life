@@ -1,0 +1,2 @@
+AddHandler fcgid-script .html
+FCGIWrapper "/dh/cgi-system/php53.cgi" .html
