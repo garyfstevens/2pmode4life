@@ -1,0 +1,28 @@
+
+@font-face {
+    font-family: 'English Towne'; /*a name to be used later*/
+    src: url('../font/EnglishTowne.ttf'); /*URL to font*/
+}
+
+body {
+	background-image:url("../img/parchment_paper_background_1800x1600.jpg");
+}
+
+p::first-letter {
+	font-family: "English Towne";
+	font-size:2em;
+}
+
+small {
+	font-style: italic;
+/*	color: black!important; TODO - fix this? */
+}
+
+h1 h2 body {
+	font-family: fantasy, serif;
+}
+
+h2 {
+	font-family: "English Towne";
+	font-size: 2.5em;
+}

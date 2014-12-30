@@ -24,7 +24,9 @@ module.exports = function(grunt) {
           {expand: true, src: ['lib/.htaccess'], dest: 'dest', flatten: true},
           {expand: true, src: ['lib/bootstrap/bootstrap-3.1.1-dist/js/bootstrap.min.js'], dest: 'dest/js', flatten: true},
           {expand: true, src: ['lib/bootstrap/bootstrap-3.1.1-dist/css/bootstrap.min.css'], dest: 'dest/css', flatten: true},
-          {expand: true, src: ['lib/img/favicon.ico'], dest: 'dest/img', flatten: true}
+          {expand: true, src: ['src/css/*'], dest: 'dest/css', flatten: true},
+          {expand: true, src: ['lib/img/*'], dest: 'dest/img', flatten: true},
+          {expand: true, src: ['lib/font/*'], dest: 'dest/font', flatten: true}
         ]
       }
     },
@@ -40,6 +42,34 @@ module.exports = function(grunt) {
         },
         src: "src/templates/layouts/index.hbs",
         dest: "dest/"
+      },
+      party: {
+        options: {
+          data: './src/data/party/data.json'
+        },
+        src: "./src/templates/layouts/party.hbs",
+        dest: "dest/"
+      },
+      places: {
+
+      },
+      chapter1: {
+
+      },
+      chapter2: {
+
+      },
+      chapter3: {
+
+      },
+      dmnotebook: {
+
+      },
+      about: {
+
+      },
+      error404: {
+
       }
     },
 
