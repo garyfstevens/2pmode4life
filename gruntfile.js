@@ -45,16 +45,21 @@ module.exports = function(grunt) {
       },
       party: {
         options: {
-          data: './src/data/party/data.json'
+          data: 'src/data/party/data.json'
         },
-        src: "./src/templates/layouts/party.hbs",
+        src: "src/templates/layouts/party.hbs",
         dest: "dest/"
       },
       places: {
 
       },
       chapter1: {
-
+        options: {
+          data: 'src/data/rotrl_sessions/chapt01/data.json',
+          layout: 'src/templates/layouts/default.hbs'
+        },
+        src: "src/templates/layouts/session_notes.hbs",
+        dest: "dest/rotrl_chapter1.html"
       },
       chapter2: {
 

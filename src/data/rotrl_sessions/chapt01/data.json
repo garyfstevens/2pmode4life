@@ -1,0 +1,75 @@
+{
+	"chapter_name": "Chapter 1",
+	"sessions": [
+		{
+			"id": "session01",
+			"title": "Session 01",
+			"date": "June 7, 2014",
+			"summary": [
+				"The party members find themselves in Sandpoint during The Swallowtail Festival, celebrating the reopening of Sandpoint's newly rebuilt church after its former church burned down 5 years ago. The taverns in Sandpoint (The Hagfish, The White Deer, and The Rusty Dragon) were giving away samples of their meads and signature dishes. Carnival games were also set up, where Drakard won a miniature catapult and the party raced lizards together around a small track.", 
+				"The festival was attacked by a large group of goblins, who wreaked havoc upon the town. The party defended the church from the small attackers before rescuing Aldern Foxglove, a human nobleman. Their bravery and skill impressed Ameiko Kaijitsu, proprietor of the Rusty Dragon, enough that she gave them all free room and board at the inn for a week."
+			]
+		},
+		{
+			"id": "session02",
+			"title": "Session 02",
+			"date": "June 28, 2014",
+			"summary": [
+				"The morning after the goblin raid on Sandpoint, Sheriff Hemlock calls on the PCs to help investigate evidence of disturbances in the graveyard. When they arrive, it is clear that the mausoleum holding the remains of Sandpoint’s former clergy has been broken into. Inside, they fight off a pair of skeletons and find that the remains of the previous cleric of the cathedral, Ezakein Tobyn, have been taken. Icentress finds that a few goblins and a humanoid left tracks, and the party acquires a 20-foot ladder.", 
+				"That afternoon, Aldern Foxglove invites them on a boar hunt as thanks for saving his life. He buys the party each a horse from Goblin Squash Stables, including a fine pale horse for Icentress, who he questions insistently about her life and adventures. The group finds a wild Tickwood boar, which almost gores Dracard before it is brought down and taken back to the Rusty Dragon.",
+				"The next day Sheriff Hemlock introduces the party to Mayor Deverin and Shalelu Andosana, an elven ranger who patrols the surrounding countryside and hunts goblins. Shalelu describes increased and surprisingly organized goblin attacks on nearby farms, and voices concern that someone has brought the multiple goblin tribes together for some foul purpose. Sheriff Hemlock decides to travel to Magnimar and have additional soldiers assigned to Sandpoint.",
+				"At the Rusty Dragon, Lonjiku Kaijitsu angrily confronts his daughter, who strikes him with a soup ladle and sends him away.",
+				"The next morning, one of Ameiko's maids tells the party that Ameiko seems to have gone missing, and gives them a note found in her room from her half-brother Tsuto. The note asks Ameiko to meet Tsuto at the Glassworks at midnight the night before."
+			]
+		},
+		{
+			"id": "session03",
+			"title": "Session 03",
+			"date": "July 6, 2014",
+			"summary": [
+				"The party investigates the Sandpoint Glassworks, where the doors are all locked and the curtains drawn. Icentress climbs to the roof using the party's 20-foot ladder while a crowd gathers to see what Sandpoint’s latest heroes are doing. Dracard convinces them that nothing is wrong and the townsfolk continue on, while Icentress sees goblins breaking glass and playing with corpses in one of the main rooms.",
+				"Icentress breaks through one of the skylights and unlocks the door for the rest of the party. After a thorough sweep of the Glassworks, they attack the goblins in the glass-making room. One goblin escapes while the party discovers the corpse of Lonjiku Kaijitsu encased under cooling glass. Downstairs, they find the remaining goblin and a half-elf who stuns Qola and Icentress and knocks Khellis unconscious before being brought down as he tried to flee down the smuggler’s tunnels.",
+				"They find in his pocket a journal that identifies him as Tsuto, and includes diagrams for the goblin raid on Sandpoint a few days prior and plans for a much larger raid. Also inside are details about Nualia, a young woman raised by Ezakein Tobyn who had been thought to be dead. The party rescues Ameiko, and Dracard breaks the news to her that her father has also been killed. Inside the smuggler’s tunnels they find the entrance to some sort of underground cavern."
+			]
+		},
+		{
+			"id": "session04",
+			"title": "Session 04",
+			"date": "July 13, 2014",
+			"summary": [
+				"The party descends into the underground cavern, attacked by hideous humanoid creatures roaming the ancient hallways. They find a magic room that displays threatening text in Thassalonian, a group of zombies kept inside pits, and fight the goblin \"hero\" Koruvus from whom the PCs loot his magical longsword.",
+				"In a far corner of the underground complex they find a strange orange pool, freezing to the touch. The party also fights a small winged demon who exhausts them before turning invisible and fleeing. Dracard lets his own blood drip into the pool and another of the hideous creatures emerges from the water, which is quickly decapitate by Qola."
+			]
+		},
+		{
+			"id": "session05",
+			"title": "Session 05",
+			"date": "August 8, 2014",
+			"summary": [
+				"The party spent a few days resting and recovering after the difficult battle in the catacombs underneath the Glassworks, during which Sherrif Hemlock returned from his trip to Magnimar. When the party reports in on the events of the past few days, Hemlock is concerned. He asks the PCs investigate the area around Thistletop while he looks at increasing Sandpoint's defenses.",
+				"Icentress lead the party through the wilderness to Thistletop, where a goblin encampment is set up. She spotted a deep groove in the soft dirt, which the party followed. When they investigated part of the goblin camp, they were attacked by Gogmurt the goblin and his animal companion. The party surrounded Gogmurt, forcing him to surrender. Gogmurt tells the party about a woman with pale hair and eyes who moved into the goblin complex and he belives will bring ruin to the Thistletop goblin tribe. He also describes her companions as a man clad in metal armor, a brutal bugbear, a woman who burns goblins with fire magic, and a half-elf who plays his flute. When Sarra heals some of Gogmurts wounds, he confesses that the bridge that spans the water to the goblin complex is a trap and explains how to disable it.",
+				"The party safely crosses the wood and rope bridge and begins to explore the wooden stockade. They find a small yard and make quick work of the goblin dogs there, then find a small shack that they suspect contains a \"murder horse.\" Sarra and Icentress also find a treasure chest hidden in the latrine, but Icentress' hand is cut by a rusty trap blade hidden in the wall."
+			]
+		},
+		{
+			"id": "session06",
+			"title": "Session 06",
+			"date": "August 16, 2014",
+			"summary": [
+				"The party moves down into a basement level of the stockade, where they find a dark-skinned woman whom Drakard attempts to bluff, claiming the party are the Varisian government health inspectors. The woman recognizes the party as the ones who killed Tsuto, and attacks in a rage; she shatters Qola's greataxe, but the party break through her illusion magic and defeat her.",
+				"They go down another level and find a room filled with statues. The entire party identifies a trap in the hallway, which Drakard sacrifices his 10-foot pole to trigger and observe. Everyone is able to leap across the trap, and they find Nualia in the next room. Khellis does incredible damage to her with his spells, and Nualia pushes past Icentress as she attempts to flee upstairs. However, Icentress is able to take her down with an arrow before Nualia can escape.",
+				"The party explores the rest of the level, finding a carved stone pillar enchanted to look like a massive pile of gold coins. They also fight a giant enemy crab that was living inside a giant's helmet. They want the helmet, but it weights 300 pounds. Drakard and Khellis drag it away from the water into a corner of what floor remains in the room, then the party returns upstairs to the first basement level."
+			]
+		},
+		{
+			"id": "session07",
+			"title": "Session 07",
+			"date": "August 23, 2014",
+			"summary": [
+				"The party finds a chapel to Lamashtu, guarded by two more flying hounds. After defeating the hounds, the party discovers the stolen remains of Father Tobyn have been burned on the altar. At the end of a long hallway, they find five living quarters. Inside one room is a human man named Orik, a mercenary hired by Nualia. When Sarra shows Nualia's seven-pointed star medallion as proof of Nualia's defeat, Orik stands down. Drakard hires Orik to help the party explore the rest of the Thistletop structure.",
+				"Orik and the party explored a cave and defeated a large squid before heading upstairs to the first level. While exploring the eastern half of the goblin encampment, they found the throne room of the leader of the Thistletop goblin tribe. The goblins cornered Orik and most of the party, leading Icentress and Qola to run around to flank them while Khellis caused rocks to rain down throughout the entire room. After slaying the goblins, the party rescued \"murder horse;\" a black, strong-looking steed named Shadowmist. With Shadowmist's and Orik's help, the party dragged the giant crown back to Sandpoint.",
+				"The next morning, Icentress awoke suffering from lockjaw and had to be treated by Sarra."
+			]
+		}
+	]
+}
