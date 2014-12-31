@@ -62,10 +62,20 @@ module.exports = function(grunt) {
         dest: "dest/rotrl_chapter1.html"
       },
       chapter2: {
-
+        options: {
+          data: 'src/data/rotrl_sessions/chapt02/data.json',
+          layout: 'src/templates/layouts/default.hbs'
+        },
+        src: "src/templates/layouts/session_notes.hbs",
+        dest: "dest/rotrl_chapter2.html"
       },
       chapter3: {
-
+        options: {
+          data: 'src/data/rotrl_sessions/chapt03/data.json',
+          layout: 'src/templates/layouts/default.hbs'
+        },
+        src: "src/templates/layouts/session_notes.hbs",
+        dest: "dest/rotrl_chapter3.html"
       },
       dmnotebook: {
 
