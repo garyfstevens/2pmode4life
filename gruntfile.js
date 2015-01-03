@@ -51,7 +51,12 @@ module.exports = function(grunt) {
         dest: "dest/"
       },
       places: {
-
+        options: {
+          data: 'src/data/city/magnimar/data.json',
+          layout: 'src/templates/layouts/default.hbs'
+        },
+        src: "src/templates/layouts/city.hbs",
+        dest: "dest/magnimar.html"
       },
       chapter1: {
         options: {
@@ -77,7 +82,7 @@ module.exports = function(grunt) {
         src: "src/templates/layouts/session_notes.hbs",
         dest: "dest/rotrl_chapter3.html"
       },
-      dmnotebook: {
+      dmblog: {
 
       },
       about: {

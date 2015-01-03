@@ -26,3 +26,11 @@ h2 {
 	font-family: "English Towne";
 	font-size: 2.5em;
 }
+
+.forsale caption {
+	font-weight: bold;
+}
+
+.forsale tr, td {
+	border-top: 0px !important;
+}

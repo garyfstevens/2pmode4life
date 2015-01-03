@@ -1,0 +1,24 @@
+<div class="container" id="content">
+	<h1>{{name}}</h1>
+	<p>Any magic item of {{{base_value}}} or less has a 75% chance of being found in {{{name}}}.</p>
+	<h2>Items for Sale</h2>
+	{{#for_sale}}
+		<table class="table forsale">
+			<caption>{{{type}}}</caption>
+			<thead>
+				<tr>
+					<td>Name</td>
+					<td>Price</td>
+				</tr>
+			</thead>
+			<tbody>
+				{{#items}}
+				<tr>
+					<td><a href="{{{url}}}">{{{name}}}</a></td>
+					<td>{{{price}}}</td>
+				</tr>
+				{{/items}}
+			</tbody>
+		</table>
+	{{/for_sale}}
+</div>
