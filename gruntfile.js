@@ -24,9 +24,12 @@ module.exports = function(grunt) {
           {expand: true, src: ['lib/.htaccess'], dest: 'dest', flatten: true},
           {expand: true, src: ['lib/bootstrap/bootstrap-3.1.1-dist/js/bootstrap.min.js'], dest: 'dest/js', flatten: true},
           {expand: true, src: ['lib/bootstrap/bootstrap-3.1.1-dist/css/bootstrap.min.css'], dest: 'dest/css', flatten: true},
+          {expand: true, src: ['lib/angularjs/angular-1.2.27/angular.min.js'], dest: 'dest/js', flatten: true},
+          {expand: true, src: ['src/js/app.js'], dest: 'dest/js', flatten: true},
           {expand: true, src: ['src/css/*'], dest: 'dest/css', flatten: true},
           {expand: true, src: ['lib/img/*'], dest: 'dest/img', flatten: true},
-          {expand: true, src: ['lib/font/*'], dest: 'dest/font', flatten: true}
+          {expand: true, src: ['lib/font/*'], dest: 'dest/font', flatten: true},
+          {expand: true, src: ['data/cities.json'], dest: 'dest/data', flatten: true}
         ]
       }
     },
@@ -34,6 +37,7 @@ module.exports = function(grunt) {
     assemble: {
       options: {
         partials: 'src/templates/partials/**/*.hbs',
+        engine: 'mustache',
         flatten: true
       },
       index: {
@@ -57,6 +61,14 @@ module.exports = function(grunt) {
         },
         src: "src/templates/layouts/city.hbs",
         dest: "dest/magnimar.html"
+      },
+      places2: {
+        options: {
+          data: 'src/data/city/magnimar/data.json',
+          layout: 'src/templates/layouts/default.hbs'
+        },
+        src: "src/templates/layouts/places.hbs",
+        dest: "dest/places.html"
       },
       chapter1: {
         options: {
