@@ -2,25 +2,23 @@
     <p>Test of Angular: {[{2+2}]}</p>
     <div ng-controller="TabController as tab">
         <ul class="nav nav-pills">
+            <li ng-class="{'active':tab.isSet(0)}">
+                <a href ng-click="tab.setTab(0)">Sandpoint</a>
+            </li>
             <li ng-class="{'active':tab.isSet(1)}">
-                <a href ng-click="tab.setTab(1)">Sandpoint</a>
+                <a href ng-click="tab.setTab(1)">Magnimar</a>
             </li>
             <li ng-class="{'active':tab.isSet(2)}">
-                <a href ng-click="tab.setTab(2)">Magnimar</a>
-            </li>
-            <li ng-class="{'active':tab.isSet(3)}">
-                <a href ng-click="tab.setTab(3)">Turtleback Ferry</a>
+                <a href ng-click="tab.setTab(2)">Turtleback Ferry</a>
             </li>
         </ul>
-        <div ng-show="tab.isSet(1)">
-            <p>Sandpoint!</p>
-        </div>
-        <div ng-show="tab.isSet(2)">
-            <p>Magnimar!</p>
-        </div>    
-        <div ng-show="tab.isSet(3)">
-            <p>Turtleback Ferry!</p>
+        <div ng-controller="WorldController as world">
+            <div ng-repeat="city in world.cities">
+                <div ng-show="tab.isSet($index)">
+                    {{!-- TODO: Build a city angular partial, load it using ng-include --}}
+                    <p>Welcome to {[{city.name}]}!</p>
+                </div>
+            </div>
         </div>
     </div>
-
 </div>
