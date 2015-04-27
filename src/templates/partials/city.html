@@ -1,0 +1,18 @@
+<h1>{[{city.name}]}</h1>
+<p>Any magic item of {[{city.base_value}]} or less has a 75% chance of being found in {[{city.name}]}.</p>
+<h2>Items for Sale</h2>
+<table ng-repeat="forsale in city.for_sale" class="table forsale">
+    <caption>{[{forsale.type}]}</caption>
+    <thead>
+        <tr>
+            <td>Name</td>
+            <td>Price</td>
+        </tr>
+    </thead>
+    <tbody ng-repeat="item in forsale.items">
+        <tr>
+            <td><a href="{[{item.url}]}">{[{item.name}]}</a></td>
+            <td>{[{item.price}]}</td>
+        </tr>
+    </tbody>
+</table>

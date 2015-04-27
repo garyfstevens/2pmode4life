@@ -29,7 +29,8 @@ module.exports = function(grunt) {
           {expand: true, src: ['src/css/*'], dest: 'dest/css', flatten: true},
           {expand: true, src: ['lib/img/*'], dest: 'dest/img', flatten: true},
           {expand: true, src: ['lib/font/*'], dest: 'dest/font', flatten: true},
-          {expand: true, src: ['src/data/cities/cities.json'], dest: 'dest/data', flatten: true}
+          {expand: true, src: ['src/data/cities/cities.json'], dest: 'dest/data', flatten: true},
+          {expand: true, src: ['src/templates/partials/city.html'], dest: 'dest', flatten: true}
         ]
       }
     },
