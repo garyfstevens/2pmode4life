@@ -40,3 +40,7 @@ h2 {
 .for-sale-table td:nth-child(2) {
 	width: 35%;	
 }
+
+.spell-name {
+	font-style: italic;
+}
