@@ -16,6 +16,22 @@
 
     }]);
 
+    app.controller('SessionController', ['$http', function($http){
+        var session = this;
+        session.notes = [];
+
+        $http.get('../data/chapter1.json').success(function(data){
+            session.notes[0] = data;
+        });
+        $http.get('../data/chapter2.json').success(function(data){
+            session.notes[1] = data;
+        });
+        $http.get('../data/chapter3.json').success(function(data){
+            session.notes[2] = data;
+        });
+
+    }]);    
+
     app.controller('TabController', function(){
         this.tab = 0;
 

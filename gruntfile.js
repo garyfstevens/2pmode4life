@@ -30,6 +30,9 @@ module.exports = function(grunt) {
           {expand: true, src: ['lib/img/*'], dest: 'dest/img', flatten: true},
           {expand: true, src: ['lib/font/*'], dest: 'dest/font', flatten: true},
           {expand: true, src: ['src/data/cities/cities.json'], dest: 'dest/data', flatten: true},
+          {expand: true, src: ['src/data/session_notes/chapter1.json'], dest: 'dest/data', flatten: true},
+          {expand: true, src: ['src/data/session_notes/chapter2.json'], dest: 'dest/data', flatten: true},
+          {expand: true, src: ['src/data/session_notes/chapter3.json'], dest: 'dest/data', flatten: true},
           {expand: true, src: ['src/templates/partials/city.html'], dest: 'dest', flatten: true}
         ]
       }
@@ -65,11 +68,19 @@ module.exports = function(grunt) {
       },
       places2: {
         options: {
-          data: 'src/data/city/magnimar/data.json',
+          data: '',
           layout: 'src/templates/layouts/default.hbs'
         },
         src: "src/templates/layouts/places.hbs",
         dest: "dest/places.html"
+      },
+      sessions: {
+        options: {
+          data: '',
+          layout: 'src/templates/layouts/default.hbs'
+        },
+        src: "src/templates/layouts/sessions.hbs",
+        dest: "dest/sessions.html"
       },
       chapter1: {
         options: {

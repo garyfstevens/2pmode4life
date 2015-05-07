@@ -1,0 +1,40 @@
+{
+	"chapter_name": "Chapter 3",
+	"sessions": [
+		{
+			"id": "session12",
+			"title": "Session 12",
+			"date": "February 14, 2015",
+			"summary": [
+				"The party are summoned to the offices of the Lord Mayor of Magnimar and must explain the destruction of the Shadow Clock. The Lord-Mayor believes them, based on the testimony of the man the PCs rescued from the sawmill and the letter they found in Xanesha's nest.",
+				"He asks the party to investigate Fort Rannik to the east, which has had no communication with the outside world for an usual length of time. Drakard discovers that the Lord-Mayor does not fancy him, but is still able to convince the Lord-Mayor to pay the party's travel fees. While in town, Drakard invests in a plot of empty land in the Shore that his growing followers can develop and reside on.",
+				"On the ferry ride up the Yondabakari and Skull Rivers, the party encounters a familiar face - the ranger Shalelu. She explains that she too is going to Turtleback Ferry to track down her estranged step-father, one of the Black Arrows who is stationed at Fort Rannik.",
+				"Once in town, the party begins their investigation. Sarra spots a man with a tattoo of the Sihedron Rune on his ankle, and the ladies follow him down an alleyway. They confront Cale, and Icentress lets her Sihedron Medallion catch his eye. Cale is shocked to see a necklace with the symbol of Paradise on it, and asks Icentress if there is another Paradise somewhere.",
+				"Meanwhile, Khellis and Drakard investigate the shoreline of Claybottom Lake, where they find that a gambling barge named Paradise had sunk to the bottom.",
+				"The party reunites at the temple to Erastil and meet its cleric, a man named Maelin Shreed. Shreed enchants the party with <span class=\"spell-name\">water breathing</span> and Drakard makes a donation to the temple. The party rents a boat to take them out to the site of the sunken barge, and swim down to investigate the wreck.",
+				"They discover a large wooden ship with three holes blown in the hull which appear to have blown out from inside the ship. In the main hall, they find a few decaying bodies as well as the main office - the safe inside with its door still open.",
+				"That afternoon, the party trudges through the rain up the path towards Fort Rannik until Icentress hears a distressful sound. They discover a firepelt cougar caught in a trap, and free it. By using <span class=\"spell-name\">speak with animals</span>, Icentress learns the cougar's name is Kibb and that its ranger companion has been captured. Kibb leads the party through the woods to a small homestead.",
+				"The farmhouse is guarded by half-ogres, which the party defeats with the help of a summoned owlbear and captures one half-ogre alive. The party learns that captives are held in the back of the barn when Qola threatens to feed the captive to the giant spider the half-ogres use to guard their prisoners. The PCs release three men who turn out to be Black Arrows: Jakardros Sovark, Vale Temeros, and Kaven Windstrike, who the PCs discover has a Sihedron Rune tattoo on his wrist. They leave the recovering Black Arrows with Shalelu while the party searches the farmhouse for their lost equipment."
+			]
+		},
+		{
+			"id": "session13",
+			"title": "Session 13",
+			"date": "March 14, 2015",
+			"summary": [
+				"Icentress tries to sneak in a side door of the farmhouse, only to be hit with an unbelieveably bad stench of rot and filth. The part moves to the porch, where sawblades cut their feet as Icentress works the door open.",
+				"Inside, the party finds room after room of horrific sights: furniture made of human and animal parts, as well as trophies and idols to past kills. Drakard disguises himself as a ogrekin and tricks two younger ogrekin into leaving them alone. However, this trick does not work on Mammy Graul, whom the party defeats.",
+				"Still looking for the Black Arrows' gear, the party heads downstairs and encounters another ogrekin and his two trained rats. Icentress charms one of them, which ignores its master's commands. In the next room, the PCs come face to face with a massive plant creature. It whips out with vines and begins binding and squeezing Qola and the others. Drakard casts <span class=\"spell-name\">grease</span> on everyone, making it hard for the plant monster to hold them. After defeating the creature, the party finds the Black Arrows' gear hidden in the back of the room.",
+				"With the Black Arrows' gear returned, the party plans on how they will assault Fort Rannik."
+			]
+		},
+		{
+			"id": "session14",
+			"title": "Session 14",
+			"date": "June?, 2015",
+			"summary": [
+				"Coming soon..."
+			]
+		}
+	]
+}
