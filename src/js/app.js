@@ -1,10 +1,10 @@
 (function() {
     var app = angular.module('pathfinder', []);
 
-    app.config(function($interpolateProvider) {
-        $interpolateProvider.startSymbol('{[{');
-        $interpolateProvider.endSymbol('}]}');
-    });
+    // app.config(function($interpolateProvider) {
+    //     $interpolateProvider.startSymbol('{[{');
+    //     $interpolateProvider.endSymbol('}]}');
+    // });
     
     app.controller('WorldController', ['$http', function($http){
         var world = this;
