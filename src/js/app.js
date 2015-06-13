@@ -45,4 +45,8 @@
 
     });
 
+    app.controller('HomeController', function(){
+
+    });
+
 })();

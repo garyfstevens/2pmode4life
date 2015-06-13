@@ -1,0 +1,22 @@
+<div class="container" id="content" ng-app="pathfinder">
+    <div ng-controller="TabController as tab">
+        <ul class="nav nav-pills">
+            <li ng-class="{'active':tab.isSet(0)}">
+                <a href ng-click="tab.setTab(0)">Sandpoint</a>
+            </li>
+            <li ng-class="{'active':tab.isSet(1)}">
+                <a href ng-click="tab.setTab(1)">Magnimar</a>
+            </li>
+            <li ng-class="{'active':tab.isSet(2)}">
+                <a href ng-click="tab.setTab(2)">Turtleback Ferry</a>
+            </li>
+        </ul>
+        <div ng-controller="WorldController as world">
+            <div ng-repeat="city in world.cities">
+                <div ng-show="tab.isSet($index)">
+                    <div class="container" ng-include="city.html"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
