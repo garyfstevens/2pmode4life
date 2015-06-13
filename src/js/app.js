@@ -10,7 +10,7 @@
         var world = this;
         world.cities = [];
 
-        $http.get('../data/cities.json').success(function(data){
+        $http.get('data/cities.json').success(function(data){
             world.cities = data;
         });
 
@@ -20,13 +20,13 @@
         var session = this;
         session.notes = [];
 
-        $http.get('../data/chapter1.json').success(function(data){
+        $http.get('data/chapter1.json').success(function(data){
             session.notes[0] = data;
         });
-        $http.get('../data/chapter2.json').success(function(data){
+        $http.get('data/chapter2.json').success(function(data){
             session.notes[1] = data;
         });
-        $http.get('../data/chapter3.json').success(function(data){
+        $http.get('data/chapter3.json').success(function(data){
             session.notes[2] = data;
         });
 
