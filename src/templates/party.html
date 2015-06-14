@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="pathfinder">
+<div ng-include src="'header.html'"></div>
+<div ng-include src="'navbar.html'"></div>
+    <div class="container" id="content">
+        <div ng-controller="PartyController as party">
+            <h1>The Party</h1>
+            <div ng-repeat="pc in party.members">
+                <h2>{{pc.name}} <small>{{pc.race}} {{pc.class}}</small></h2>
+                <p>{{pc.bio}}</p>
+            </div>
+        </div>
+    </div>
+<script src="js/angular.min.js"></script>
+<script src="js/angular-sanitize.min.js"></script>
+<script src="js/app.js"></script>
+<div ng-include src="'footer.html'"></div>
+</html>

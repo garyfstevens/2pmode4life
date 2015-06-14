@@ -4,8 +4,9 @@
     src: url('../font/EnglishTowne.ttf'); /*URL to font*/
 }
 
+/*
 body {
-	/*background-image:url("../img/parchment_paper_background_1800x1600.jpg");*/
+	background-image:url("../img/parchment_paper_background_1800x1600.jpg");
 }
 
 p::first-letter {
@@ -15,7 +16,6 @@ p::first-letter {
 
 small {
 	font-style: italic;
-/*	color: black!important; TODO - fix this? */
 }
 
 h1 h2 body {
@@ -26,11 +26,21 @@ h2 {
 	font-family: "English Towne";
 	font-size: 2.5em;
 }
+*/
 
-.forsale caption {
-	/*font-weight: bold;*/
+.for-sale-caption {
+	font-weight: bold;
+	padding-bottom: 0.5em;
 }
 
-.forsale tr, td {
-	/*border-top: 0px !important;*/
+.for-sale-table td:nth-child(1) {
+	width: 65%;	
+}
+
+.for-sale-table td:nth-child(2) {
+	width: 35%;	
+}
+
+.spell-name {
+	font-style: italic;
 }
