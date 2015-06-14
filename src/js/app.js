@@ -45,8 +45,14 @@
 
     });
 
-    app.controller('HomeController', function(){
+    app.controller('PartyController', ['$http', function($http){
+        var party = this;
+        party.members = [];
 
-    });
+        $http.get('data/party.json').success(function(data){
+            party.members = data;
+        });
+
+    }]);
 
 })();
