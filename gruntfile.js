@@ -31,6 +31,7 @@ module.exports = function(grunt) {
           {expand: true, src: ['lib/img/*'], dest: 'dest/img', flatten: true},
           {expand: true, src: ['lib/font/*'], dest: 'dest/font', flatten: true},
           {expand: true, src: ['src/data/cities/cities.json'], dest: 'dest/data', flatten: true},
+          {expand: true, src: ['src/data/party/party.json'], dest: 'dest/data', flatten: true},
           {expand: true, src: ['src/data/session_notes/*.json'], dest: 'dest/data', flatten: true},
           {expand: true, src: ['src/templates-angular/*.html'], dest: 'dest', flatten: true},
           {expand: true, src: ['src/templates-angular/partials/*.html'], dest: 'dest', flatten: true}
