@@ -25,7 +25,7 @@ module.exports = function(grunt) {
           {expand: true, src: ['lib/bootstrap/bootstrap-3.1.1-dist/js/bootstrap.min.js'], dest: 'dest/js', flatten: true},
           {expand: true, src: ['lib/bootstrap/bootstrap-3.1.1-dist/css/bootstrap.min.css'], dest: 'dest/css', flatten: true},
           // {expand: true, src: ['lib/angularjs/angular-1.2.27/angular.min.js'], dest: 'dest/js', flatten: true},
-          {expand: true, src: ['lib/angularjs/angular-1.3.15/angular.min.js'], dest: 'dest/js', flatten: true},
+          {expand: true, src: ['lib/angularjs/angular-1.3.15/*'], dest: 'dest/js', flatten: true},
           {expand: true, src: ['src/js/app.js'], dest: 'dest/js', flatten: true},
           {expand: true, src: ['src/css/*'], dest: 'dest/css', flatten: true},
           {expand: true, src: ['lib/img/*'], dest: 'dest/img', flatten: true},

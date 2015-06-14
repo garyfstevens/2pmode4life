@@ -1,10 +1,11 @@
 (function() {
-    var app = angular.module('pathfinder', []);
+    var app = angular.module('pathfinder', ['ngSanitize']);
 
-    // app.config(function($interpolateProvider) {
-    //     $interpolateProvider.startSymbol('{[{');
-    //     $interpolateProvider.endSymbol('}]}');
-    // });
+    app.filter('html', ['$sce', function($sce) {
+        return function(val) {
+            return $sce.trustAsHtml(val);
+        };
+    }]);
     
     app.controller('WorldController', ['$http', function($http){
         var world = this;
