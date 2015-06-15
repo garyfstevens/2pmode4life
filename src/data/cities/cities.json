@@ -138,6 +138,57 @@
     {
         "name": "Turtleback Ferry",
         "base_value": "500 gp",
-        "for_sale": []
+        "for_sale": [
+            {
+                "type": "Rods",
+                "items": [
+                    {
+                        "name": "Rod of Thunder and Lightning",
+                        "price": "33000 gp",
+                        "url": "http://paizo.com/pathfinderRPG/prd/magicItems/rods.html#rod-of-thunder-and-lightning"
+                    }
+                ]
+            },
+            {
+                "type": "Scrolls",
+                "items": [
+                    {
+                        "name": "Scroll of Longstrider (druid 1, ranger 1)",
+                        "price": "25 gp",
+                        "url": "http://paizo.com/pathfinderRPG/prd/spells/longstrider.html#longstrider"
+                    }
+                ]
+            },
+            {
+                "type": "Wands",
+                "items": [
+                    {
+                        "name": "Wand of Displacement (bard 3, sorcerer/wizard 3)",
+                        "price": "15750 gp",
+                        "url": "http://paizo.com/pathfinderRPG/prd/spells/displacement.html#displacement"
+                    }
+                ]
+            },
+            {
+                "type": "Wonderous Items",
+                "items": [
+                    {
+                        "name": "Robe of Useful Items",
+                        "price": "7000 gp",
+                        "url": "http://paizo.com/pathfinderRPG/prd/magicItems/wondrousItems.html#robe-of-useful-items"
+                    },
+                    {
+                        "name": "Belt of Mighty Constitution +4",
+                        "price": "16000 gp",
+                        "url": "http://paizo.com/pathfinderRPG/prd/magicItems/wondrousItems.html#belt-of-mighty-constitution"
+                    },
+                    {
+                        "name": "Tome of Understanding +1",
+                        "price": "27500 gp",
+                        "url": "http://paizo.com/pathfinderRPG/prd/magicItems/wondrousItems.html#tome-of-understanding"
+                    }
+                ]
+            }
+        ]
     }
 ]
