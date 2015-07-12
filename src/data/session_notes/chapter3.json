@@ -7,13 +7,13 @@
 			"date": "February 14, 2015",
 			"summary": [
 				"The party are summoned to the offices of the Lord Mayor of Magnimar and must explain the destruction of the Shadow Clock. The Lord-Mayor believes them, based on the testimony of the man the PCs rescued from the sawmill and the letter they found in Xanesha's nest.",
-				"He asks the party to investigate Fort Rannik to the east, which has had no communication with the outside world for an usual length of time. Drakard discovers that the Lord-Mayor does not fancy him, but is still able to convince the Lord-Mayor to pay the party's travel fees. While in town, Drakard invests in a plot of empty land in the Shore that his growing followers can develop and reside on.",
+				"He asks the party to investigate Fort Rannick to the east, which has had no communication with the outside world for an usual length of time. Drakard discovers that the Lord-Mayor does not fancy him, but is still able to convince the Lord-Mayor to pay the party's travel fees. While in town, Drakard invests in a plot of empty land in the Shore that his growing followers can develop and reside on.",
 				"On the ferry ride up the Yondabakari and Skull Rivers, the party encounters a familiar face - the ranger Shalelu. She explains that she too is going to Turtleback Ferry to track down her estranged step-father, one of the Black Arrows who is stationed at Fort Rannik.",
 				"Once in town, the party begins their investigation. Sarra spots a man with a tattoo of the Sihedron Rune on his ankle, and the ladies follow him down an alleyway. They confront Cale, and Icentress lets her Sihedron Medallion catch his eye. Cale is shocked to see a necklace with the symbol of Paradise on it, and asks Icentress if there is another Paradise somewhere.",
 				"Meanwhile, Khellis and Drakard investigate the shoreline of Claybottom Lake, where they find that a gambling barge named Paradise had sunk to the bottom.",
 				"The party reunites at the temple to Erastil and meet its cleric, a man named Maelin Shreed. Shreed enchants the party with <span class=\"spell-name\">water breathing</span> and Drakard makes a donation to the temple. The party rents a boat to take them out to the site of the sunken barge, and swim down to investigate the wreck.",
 				"They discover a large wooden ship with three holes blown in the hull which appear to have blown out from inside the ship. In the main hall, they find a few decaying bodies as well as the main office - the safe inside with its door still open.",
-				"That afternoon, the party trudges through the rain up the path towards Fort Rannik until Icentress hears a distressful sound. They discover a firepelt cougar caught in a trap, and free it. By using <span class=\"spell-name\">speak with animals</span>, Icentress learns the cougar's name is Kibb and that its ranger companion has been captured. Kibb leads the party through the woods to a small homestead.",
+				"That afternoon, the party trudges through the rain up the path towards Fort Rannick until Icentress hears a distressful sound. They discover a firepelt cougar caught in a trap, and free it. By using <span class=\"spell-name\">speak with animals</span>, Icentress learns the cougar's name is Kibb and that its ranger companion has been captured. Kibb leads the party through the woods to a small homestead.",
 				"The farmhouse is guarded by half-ogres, which the party defeats with the help of a summoned owlbear and captures one half-ogre alive. The party learns that captives are held in the back of the barn when Qola threatens to feed the captive to the giant spider the half-ogres use to guard their prisoners. The PCs release three men who turn out to be Black Arrows: Jakardros Sovark, Vale Temeros, and Kaven Windstrike, who the PCs discover has a Sihedron Rune tattoo on his wrist. They leave the recovering Black Arrows with Shalelu while the party searches the farmhouse for their lost equipment."
 			]
 		},
@@ -25,7 +25,7 @@
 				"Icentress tries to sneak in a side door of the farmhouse, only to be hit with an unbelieveably bad stench of rot and filth. The part moves to the porch, where sawblades cut their feet as Icentress works the door open.",
 				"Inside, the party finds room after room of horrific sights: furniture made of human and animal parts, as well as trophies and idols to past kills. Drakard disguises himself as a ogrekin and tricks two younger ogrekin into leaving them alone. However, this trick does not work on Mammy Graul, whom the party defeats.",
 				"Still looking for the Black Arrows' gear, the party heads downstairs and encounters another ogrekin and his two trained rats. Icentress charms one of them, which ignores its master's commands. In the next room, the PCs come face to face with a massive plant creature. It whips out with vines and begins binding and squeezing Qola and the others. Drakard casts <span class=\"spell-name\">grease</span> on everyone, making it hard for the plant monster to hold them. After defeating the creature, the party finds the Black Arrows' gear hidden in the back of the room.",
-				"With the Black Arrows' gear returned, the party plans on how they will assault Fort Rannik."
+				"With the Black Arrows' gear returned, the party plans on how they will assault Fort Rannick."
 			]
 		},
 		{
@@ -33,13 +33,40 @@
 			"title": "Session 14",
 			"date": "June 6, 2015",
 			"summary": [
-				"Coming soon..."
+				"The party sneaks through the hidden entrance behind the waterfall. They encounter a few shocker lizards, Jakardros give Icentress some <span class=\"spell-name\">shocking burst</span> arrows, and set fire to a barracks holding multiple ogres.",
+				"The Black Arrows lead the way through the caves to a hidden door into the fort's brig area. Drakard sees a tall redheaded woman and flirts with her, until she transforms into another snake creature and attacks. Qola deliveres a big hit at the creature tries to flee, and Khellis knocks her out with a well placed <span class=\"spell-name\">fireball</span>.",
+				"They interrogate her and find in her notes that it was Kaven Windstrike who betrayed the Black Arrows, but she hints that executing Kaven will only fuel her master's plan. Drakard kills her with a coup-de-grace.",
+				"Upstairs, the party encounters a massive ogre who nearly fells Drakard with a single blow. The heros are able to put him down, and Qola marches in front of the burning barracks with the snake-woman's head on the ogre leader's weapon. The remaining ogres flee the fort and control is returned to the remaining two Black Arrows."
 			]
 		},
 		{
 			"id": "session15",
 			"title": "Session 15",
 			"date": "June 27, 2015",
+			"summary": [
+				"Our heroes are woken up in the middle of the night - something is wrong in Turtleback Ferry. As they run into the street, floodwaters are running through the town. A boat with a few children and their teacher is pinned against a building.",
+				"The PCs arrive just to see a large water snake rise up and begin constricting a young girl. Qola and Nala leap across the floodwaters and into the boat, making short work of the snake. The rest of the party throws a rope and pull the boat to safety.",
+				"Just then, a massive creature rises up and begins smashing into the church. Icentress climbs onto a building with Nala and is blasted with its poisionus breath. Qola uses her bow and is nearly hit in the eye when the arrow is deflected. Drakard rides the boat towards the creature while playing his instrument and misses the beast. In her confusion, Icentress shoots Nala with her bow.",
+				"Drakard is picked up by the monster, and Khellis leaps onto him and teleports Drakard and himself back to Fort Rannick. The creature, frustrated with the difficulty its meal is giving it, flows downriver and into Cauldron Lake.",
+				"While waiting for the ladies to meet them at the fort, Drakard researches the locations mentioned in the Black Arrow leader's poems and learns he was visiting the Shimmerglens. However, the first order of business is investigating the Skull's Crossing dam.",
+				"Khellis takes a nasty fall climbing up the large steps leading up the mountain. When jumped by an ettin, Qola makes short work of it by chopping it into quarters. On top of the dam, the PCs defeat a group of ogres trying to damage the dam and trolls living inside. Deep inside the structure, they fight a scag troll. After pelting the troll with ice, electricity, and Qola's bolderhead mace, the troll flees.",
+				"Inside the next room, the PCs discover a creature trapped inside a circle of runes. Its leatherly wings are crumpled and it weakly begs for help and to be let out. Drakard summons an eagle in the opposite circle, and the creature and eagle both are reduced to ash. With a loud grinding noise, the skulls on the dam open their jaws and a controlled release of the swollen lake's waters begins."
+			]
+		},
+		{
+			"id": "session16",
+			"title": "Session 16",
+			"date": "July 9, 2015",
+			"summary": [
+				"Icentress opens the door to the final room inside Skull's Crossing and sees a large scorpion-like construct made of skulls. The party splits and runs into both doors at the same time. Only Sarra and Nala are able to gaze at the creature without flinching in fear, but it grabs Sarra in it's claws.",
+				"Icentress, with renewed resolve, enters the room and fires one of her <span class=\"spell-name\">shocking burst</span> arrows, which deals a massive critical hit. Khellis drops his adamantine sword, which Drakard brings down onto the creature and opens a huge gash in it's body. The construct drops Sarra and wheels around on Drakard. Qola uses the scag troll's trident and runs it deep into her own arm. Nala climbs on top of the destracted construct and sinks her fangs into it's head - the scorpion shutters and slumps to the floor.",
+				"Khellis teleports everyone to Magnimar for a shopping day, then the party travels to the Shimmerglens. They meet a pixie named Yap who guides them through the dark, twisted forest. The PCs discover a ship in the middle of a clearing and aboard they find myserious nautical charts and pages of sheet music. Drakard plays it, and the beautiful music inspires everyone with newfound resolve."
+			]
+		},
+		{
+			"id": "session17",
+			"title": "Session 17",
+			"date": "July 25, 2015",
 			"summary": [
 				"Coming soon..."
 			]
