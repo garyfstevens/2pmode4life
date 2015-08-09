@@ -30,6 +30,9 @@
         $http.get('data/chapter3.json').success(function(data){
             session.notes[2] = data;
         });
+        $http.get('data/chapter4.json').success(function(data){
+            session.notes[3] = data;
+        });
 
     }]);    
 
