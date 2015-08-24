@@ -44,3 +44,14 @@ h2 {
 .spell-name {
 	font-style: italic;
 }
+
+.twop-center {
+	display: table;
+	float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.olde-font {
+	font-family: 'English Towne', Fallback, sans-serif;
+}
