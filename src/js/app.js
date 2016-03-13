@@ -33,7 +33,9 @@
         $http.get('data/chapter4.json').success(function(data){
             session.notes[3] = data;
         });
-
+        $http.get('data/chapter5.json').success(function(data){
+            session.notes[4] = data;
+        });
     }]);    
 
     app.controller('TabController', function(){

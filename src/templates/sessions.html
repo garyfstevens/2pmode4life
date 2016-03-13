@@ -17,6 +17,9 @@
                 <li ng-class="{'active':tab.isSet(3)}">
                     <a href ng-click="tab.setTab(3)">Chapter 4</a>
                 </li>
+                <li ng-class="{'active':tab.isSet(4)}">
+                    <a href ng-click="tab.setTab(4)">Chapter 5</a>
+                </li>
             </ul>
             <div ng-controller="SessionController as session">
                 <div ng-repeat="chapter in session.notes">
