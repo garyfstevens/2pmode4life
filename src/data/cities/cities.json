@@ -2,94 +2,48 @@
     {
         "name": "Sandpoint",
         "base_value": "500 gp",
-        "for_sale": []
-    },
-    {
-        "name": "Magnimar",
-        "base_value": "12800 gp",
         "for_sale": [
             {
                 "type": "Armor & Shields",
                 "items": [
                     {
-                        "name": "+1 shield made of standard materials",
+                        "name": "+1 armor",
                         "price": "base price + 1000 gp",
-                        "url": "http://paizo.com/pathfinderRPG/prd/equipment.html#armor-descriptions"
-                    },
-                    {
-                        "name": "+1 armor made of standard materials",
-                        "price": "base price + 1000 gp",
-                        "url": "http://paizo.com/pathfinderRPG/prd/equipment.html#armor-descriptions"
-                    },
-                    {
-                        "name": "+2 armor made of standard materials",
-                        "price": "base price + 4000 gp",
-                        "url": "http://paizo.com/pathfinderRPG/prd/equipment.html#armor-descriptions"
+                        "url": "http://paizo.com/pathfinderRPG/prd/coreRulebook/magicItems/armor.html#armor"
                     }
                 ]
             },
 
             {
                 "type": "Weapons",
-                "items": []
+                "items": [
+                    {
+                        "name": "+1 dagger",
+                        "price": "2000 gp",
+                        "url": "http://paizo.com/pathfinderRPG/prd/coreRulebook/magicItems/weapons.html#weapons"
+                    }
+                ]
             },
 
             {
                 "type": "Potions",
-                "items": [
-                    {
-                        "name": "All first level potions",
-                        "price": "varies",
-                        "url": "http://paizo.com/pathfinderRPG/prd/magicItems/potions.html#potions"
-                    },
-                    {
-                        "name": "All second level potions",
-                        "price": "varies",
-                        "url": "http://paizo.com/pathfinderRPG/prd/magicItems/potions.html#potions"
-                    }
-                ]
+                "items": []
             },      
 
             {
                 "type": "Rings",
                 "items": [
                     {
-                        "name": "Ring of Wizardry (III)",
-                        "price": "70000 gp",
-                        "url": "http://paizo.com/pathfinderRPG/prd/magicItems/rings.html#ring-of-wizardry"
-                    },
-                    {
-                        "name": "Ring of Energy Resistance, major",
-                        "price": "28000 gp",
-                        "url": "http://paizo.com/pathfinderRPG/prd/magicItems/rings.html#ring-of-energy-resistance"
-                    },
-                    {
-                        "name": "Ring of Protection +4",
-                        "price": "32000 gp",
-                        "url": "http://paizo.com/pathfinderRPG/prd/magicItems/rings.html#ring-of-protection"
+                        "name": "Ring of Swimming, improved",
+                        "price": "10000 gp",
+                        "url": "http://paizo.com/pathfinderRPG/prd/coreRulebook/magicItems/rings.html#ring-of-swimming-improved"
                     }
                 ]
             },
 
             {
                 "type": "Rods",
-                "items": [
-                    {
-                        "name": "Rod of Metamagic, Empower, lesser",
-                        "price": "9000 gp",
-                        "url": "http://paizo.com/pathfinderRPG/prd/magicItems/rods.html#metamagic-empower"
-                    },
-                    {
-                        "name": "Rod of Metamagic, Silent, lesser",
-                        "price": "3000 gp",
-                        "url": "http://paizo.com/pathfinderRPG/prd/magicItems/rods.html#metamagic-silent"
-                    },
-                    {
-                        "name": "Rod of the Viper",
-                        "price": "19000 gp",
-                        "url": "http://paizo.com/pathfinderRPG/prd/magicItems/rods.html#rod-of-the-viper"
-                    }
-                ]
+                "items": []
             },
 
             {
@@ -99,18 +53,7 @@
 
             {
                 "type": "Staves",
-                "items": [
-                    {
-                        "name": "Staff of Size Alteration",
-                        "price": "26150 gp",
-                        "url": "http://paizo.com/pathfinderRPG/prd/magicItems/staves.html#staff-of-size-alteration"
-                    },
-                    {
-                        "name": "Staff of Healing",
-                        "price": "29600 gp",
-                        "url": "http://paizo.com/pathfinderRPG/prd/magicItems/staves.html#staff-of-healing"
-                    }
-                ]
+                "items": []
             },
 
             {
@@ -122,14 +65,166 @@
                 "type": "Wonderous Items",
                 "items": [
                     {
-                        "name": "Boots of Levitation",
-                        "price": "7500 gp",
-                        "url": "http://paizo.com/pathfinderRPG/prd/magicItems/wondrousItems.html#boots-of-levitation"
+                        "name": "Elixir of Tumbling",
+                        "price": "250 gp",
+                        "url": "http://paizo.com/pathfinderRPG/prd/coreRulebook/magicItems/wondrousItems.html#elixir-of-tumbling"
                     },
                     {
-                        "name": "Golem manual, stone",
-                        "price": "22000 gp",
-                        "url": "http://paizo.com/pathfinderRPG/prd/magicItems/wondrousItems.html#golem-manual"
+                        "name": "Bag of Holding (type I)",
+                        "price": "2500 gp",
+                        "url": "http://paizo.com/pathfinderRPG/prd/coreRulebook/magicItems/wondrousItems.html#bag-of-holding"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Magnimar",
+        "base_value": "12800 gp",
+        "for_sale": [
+            {
+                "type": "Armor & Shields",
+                "items": [
+                    {
+                        "name": "+2 Dragonhide Plate armor",
+                        "price": "73000 gp",
+                        "url": "http://paizo.com/pathfinderRPG/prd/coreRulebook/magicItems/armor.html#dragonhide-plate"
+                    },
+                    {
+                        "name": "Mithral heavy shield",
+                        "price": "1020 gp",
+                        "url": "http://paizo.com/pathfinderRPG/prd/coreRulebook/magicItems/armor.html#mithral-heavy-shield"
+                    }
+                ]
+            },
+
+            {
+                "type": "Weapons",
+                "items": [
+                    {
+                        "name": "Sword of Life Stealing",
+                        "price": "25715 gp",
+                        "url": "http://paizo.com/pathfinderRPG/prd/coreRulebook/magicItems/weapons.html#sword-of-life-stealing"
+                    },
+                    {
+                        "name": "Sword of the Planes",
+                        "price": "22315 gp",
+                        "url": "http://paizo.com/pathfinderRPG/prd/coreRulebook/magicItems/weapons.html#sword-of-the-planes"
+                    }
+                ]
+            },
+
+            {
+                "type": "Potions",
+                "items": [
+                    {
+                        "name": "As above, 75% chance of obtaining any level potion",
+                        "price": "varies",
+                        "url": "http://paizo.com/pathfinderRPG/prd/magicItems/potions.html#potions"
+                    }
+                ]
+            },      
+
+            {
+                "type": "Rings",
+                "items": [
+                    {
+                        "name": "Ring of Sustenance",
+                        "price": "2500 gp",
+                        "url": "http://paizo.com/pathfinderRPG/prd/coreRulebook/magicItems/rings.html#ring-of-sustenance"
+                    },
+                    {
+                        "name": "Ring of Force Shield",
+                        "price": "8500 gp",
+                        "url": "http://paizo.com/pathfinderRPG/prd/coreRulebook/magicItems/rings.html#ring-of-force-shield"
+                    },
+                    {
+                        "name": "Ring of Chameleon Power",
+                        "price": "12700 gp",
+                        "url": "http://paizo.com/pathfinderRPG/prd/coreRulebook/magicItems/rings.html#ring-of-chameleon-power"
+                    }
+                ]
+            },
+
+            {
+                "type": "Rods",
+                "items": [
+                    {
+                        "name": "Rod of Metamagic, Maximize (lesser)",
+                        "price": "14000 gp",
+                        "url": "http://paizo.com/pathfinderRPG/prd/coreRulebook/magicItems/rods.html#metamagic-maximize"
+                    },
+                    {
+                        "name": "Rod of Metamagic, Empower (normal)",
+                        "price": "32500 gp",
+                        "url": "http://paizo.com/pathfinderRPG/prd/coreRulebook/magicItems/rods.html#metamagic-empower"
+                    },
+                    {
+                        "name": "Rod of Rulership",
+                        "price": "60000 gp",
+                        "url": "http://paizo.com/pathfinderRPG/prd/coreRulebook/magicItems/rods.html#rod-of-rulership"
+                    },
+                    {
+                        "name": "Rod of Wonder",
+                        "price": "12000 gp",
+                        "url": "http://paizo.com/pathfinderRPG/prd/coreRulebook/magicItems/rods.html#rod-of-wonder"
+                    },
+                    {
+                        "name": "Rod of Splendor",
+                        "price": "25000 gp",
+                        "url": "http://paizo.com/pathfinderRPG/prd/coreRulebook/magicItems/rods.html#rod-of-splendor"
+                    }
+                ]
+            },
+
+            {
+                "type": "Scrolls",
+                "items": [
+                    {
+                        "name": "As above, 75% chance of obtaining any level scroll",
+                        "price": "varies",
+                        "url": "http://paizo.com/pathfinderRPG/prd/coreRulebook/magicItems/scrolls.html#scrolls"
+                    }
+                ]
+            },
+
+            {
+                "type": "Staves",
+                "items": []
+            },
+
+            {
+                "type": "Wands",
+                "items": []
+            },
+
+            {
+                "type": "Wonderous Items",
+                "items": [
+                    {
+                        "name": "Elixir of Hiding",
+                        "price": "250 gp",
+                        "url": "http://paizo.com/pathfinderRPG/prd/coreRulebook/magicItems/wondrousItems.html#elixir-of-hiding"
+                    },
+                    {
+                        "name": "Bracers of Holding, lesser",
+                        "price": "5000 gp",
+                        "url": "http://paizo.com/pathfinderRPG/prd/coreRulebook/magicItems/wondrousItems.html#bracers-of-archery-lesser"
+                    },
+                    {
+                        "name": "Iron Bands of Binding",
+                        "price": "26000 gp",
+                        "url": "http://paizo.com/pathfinderRPG/prd/coreRulebook/magicItems/wondrousItems.html#iron-bands-of-binding"
+                    },
+                    {
+                        "name": "Gem of Brightness",
+                        "price": "13000 gp",
+                        "url": "http://paizo.com/pathfinderRPG/prd/coreRulebook/magicItems/wondrousItems.html#gem-of-brightness"
+                    },
+                    {
+                        "name": "Belt of Physical Might +6",
+                        "price": "90000 gp",
+                        "url": "http://paizo.com/pathfinderRPG/prd/coreRulebook/magicItems/wondrousItems.html#belt-of-physical-might"
                     }
                 ]
             }
