@@ -2,7 +2,6 @@
 <html lang="en" ng-app="pathfinder">
 <div ng-include src="'header.html'"></div>
 <div ng-include src="'navbar.html'"></div>
-    <div class="container" id="content">
       <div class="container" id="content">
         <div ng-controller="RunelordController as theRunelords">
             <h1>The Runelords of Thassalon</h1>
@@ -20,8 +19,6 @@
               </div>
             </div>
         </div>
-      </div>
-
     </div>
 <script src="js/angular.min.js"></script>
 <script src="js/angular-sanitize.min.js"></script>
@@ -30,5 +27,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/pathfinder.css"> <!-- Don't know why this CSS isn't loading from header.html for JUST THIS PAGE -->
 <div ng-include src="'footer.html'"></div>
 </html>
