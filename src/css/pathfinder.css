@@ -52,6 +52,22 @@ h2 {
     margin-right: auto;
 }
 
+.runelord-container {
+    clear: both;
+}
+
+.runelord-portrait {
+    width: 200px;
+    height: 269px;
+    float: left;
+    margin-right: 20px;
+    
+}
+
+.runelord-bio {
+    margin-top: 90px;
+}
+
 .olde-font {
 	font-family: 'English Towne', Fallback, sans-serif;
 }

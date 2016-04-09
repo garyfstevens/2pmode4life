@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Alaznist",
+        "portrait": "PZO9066-Runelord7 Alaznist",
+        "sin": "Wrath",
+        "territory": "Bakrakhan",
+        "school": "evocation"
+    },
+    {
+        "name": "Belimarius",
+        "portrait": "PZO9066-Runelord6 Belimarius",
+        "sin": "Envy",
+        "territory": "Edasseril",
+        "school": "abjuration"
+    },
+    {
+        "name": "Karzoug",
+        "portrait": "PZO9066-Runelord5 Karzoug",
+        "sin": "Greed",
+        "territory": "Shalast",
+        "school": "transmutation"
+    },
+    {
+        "name": "Krune",
+        "portrait": "PZO9066-Runelord4 Krune",
+        "sin": "Sloth",
+        "territory": "Haruka",
+        "school": "conjuration"
+    },
+    {
+        "name": "Sorshen",
+        "portrait": "PZO9066-Runelord1 Sorshen",
+        "sin": "Lust",
+        "territory": "Eurythnia",
+        "school": "enchantment"
+    },
+    {
+        "name": "Xanderghul",
+        "portrait": "PZO9066-Runelord3 Xanderghul",
+        "sin": "Pride",
+        "territory": "Cyrusian",
+        "school": "illusion"
+    },
+    {
+        "name": "Zutha",
+        "portrait": "PZO9066-Runelord2 Zutha",
+        "sin": "Gluttony",
+        "territory": "Gastash",
+        "school": "necromancy"
+    }
+]

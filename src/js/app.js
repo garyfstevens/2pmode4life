@@ -61,4 +61,14 @@
 
     }]);
 
+    app.controller('RunelordController', ['$http', function($http){
+        var theRunelords = this;
+        theRunelords.runelords = [];
+
+        $http.get('data/runelords.json').success(function(data){
+            theRunelords.runelords = data;
+        });
+
+    }]);
+
 })();
